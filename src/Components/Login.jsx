@@ -21,6 +21,7 @@ export default () => {
     function handleEntrarPress() {
         if (user === "Lucas" && password === "1234"){
         setShowWelcome(true);
+        setErrorMessage(false);
         setExitMessage(false);
         }
         else{

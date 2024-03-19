@@ -7,8 +7,8 @@ import Cadastro from "./Components/Cadastro";
 export default () =>{
     return(
         <SafeAreaView style={style.Fundo}>
-            {/* <Login/> */}
-            <Cadastro/>
+            <Login/>
+            {/* <Cadastro/> */}
         </SafeAreaView>
     )
 }
