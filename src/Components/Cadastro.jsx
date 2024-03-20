@@ -58,7 +58,7 @@ export default () => {
         <SafeAreaView>
             {/* Header */}
             <View style={style.Header}>
-                <Image source={require("../img/login.png")} />
+                <Image source={require("../img/Logo.png")} />
 
                 <Text style={style.Title}>Cadastro de Clientes</Text>
             </View>

@@ -3,49 +3,111 @@ import { StyleSheet } from "react-native";
 
 export default Style = StyleSheet.create({
 
-    ImageCenter:{
+
+ // GERAL //
+ Fundo:{
+        backgroundColor:"#10002b",
+        flexGrow:1,
+    },
+
+    Container:{
+        justifyContent: "center",
+        alignItems: "center",
+        },
+// IMAGEM //
+
+ImageCenter:{
         justifyContent: "center",
     alignItems: "center",
     },
-    Container:{
-    justifyContent: "center",
+
+ImageLeft:{
+        justifyContent: "center",
     alignItems: "center",
     },
-    Fundo:{
-        backgroundColor:"#4361ee",
-        flexGrow:1,
-        alignItems:"center",
-        justifyContent:"center"
-    },
+Icons:{
+    width:50,
+    height:50
+},
+
+// HOME //
+Categorias:{
+    flexDirection: "row",
+    justifyContent:"space-around",
+    marginBottom:100
+},  
+
+BoxCategorias:{
+    width:100,
+    height:100,
+    backgroundColor:"white",
+    alignItems:"center"
+},
+
+// LOGIN //
+
+NaoClique:{
+    textAlign:"right",
+    marginBottom:20
+},
+
+// CADASTRO //
+
+Input:{
+    textAlign:"center",
+    backgroundColor:"#4895ef",
+    color:"#FFF",
+    height:40,
+    width:300,
+    margin:12,
+    padding:10,
+},
+
+Button:{
+    marginBottom:10,
+    backgroundColor:"#4895ef",
+    height: 30, 
+    borderRadius: 25, 
+    width: 100, 
+    alignItems: "center", 
+    justifyContent: "center", 
+    
+},
+
+InputTel:{
+    backgroundColor:"#4895ef",
+    color:"#FFF",
+    height:40,
+    width:180,
+    margin:12,
+    padding:10,
+},
+
+InputCad:{
+    backgroundColor:"#4895ef",
+    color:"#FFF",
+    height:40,
+    width:300,
+    margin:12,
+    padding:10,
+},
+
+// CATEGORIAS //
+
+
+
+    
+    
+   
     Text:{
         fontWeight:"bold",
         color:"#FFF",
         textAlign:"center"
     },
-    Input:{
-        textAlign:"center",
-        backgroundColor:"#4895ef",
-        color:"#FFF",
-        height:40,
-        width:300,
-        margin:12,
-        padding:10,
-    },
-    NaoClique:{
-        textAlign:"right",
-        marginBottom:20
-    },
-    Button:{
-        marginBottom:10,
-        backgroundColor:"#4895ef",
-        height: 30, 
-        borderRadius: 25, 
-        width: 100, 
-        alignItems: "center", 
-        justifyContent: "center", 
-        
-    },
-    // Pagina de Cadastro
+    
+   
+    
+
     Header:{
         flexDirection: "row",
         alignItems: "center",
@@ -81,21 +143,6 @@ export default Style = StyleSheet.create({
         justifyContent:"space-around",
         
     },
-    InputTel:{
-        backgroundColor:"#4895ef",
-        color:"#FFF",
-        height:40,
-        width:180,
-        margin:12,
-        padding:10,
-    },
-    InputCad:{
-        backgroundColor:"#4895ef",
-        color:"#FFF",
-        height:40,
-        width:300,
-        margin:12,
-        padding:10,
-    },
+    
 
 })

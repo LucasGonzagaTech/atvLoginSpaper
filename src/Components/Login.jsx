@@ -46,9 +46,9 @@ export default () => {
 
     return (
         <SafeAreaView>
-            <View style={style.ImageCenters}>
+            <View style={style.ImageCenter}>
                 {/* Logo */}
-                <Image style={style.Imagem} source={require("../img/login.png")} />
+                <Image style={style.Imagem} source={require("../img/Logo.png")} />
             </View>
 
 
